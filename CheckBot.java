@@ -91,7 +91,7 @@ public class CheckBot extends TelegramLongPollingBot {
             Document file = update.getMessage().getDocument();
             long chatId = update.getMessage().getChatId();
             ImmutablePair<Document, ReplyKeyboardMarkup> result = recordService.handleMessage(chatId, file, this);
-           // sendFile(chatId, result.getLeft(), result.getRight());
+            sendFile(chatId, result.getLeft(), result.getRight());
         }
     }
 }
