@@ -1,6 +1,5 @@
 # CheckBot
-Backend-приложение на Java с использованием Spring Boot
-Разделение ответственности по пакетам.
+Backend-приложение на Java с использованием Spring Boot.
 
 # Технологии
 - Java 17+
